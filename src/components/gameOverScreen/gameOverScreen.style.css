@@ -1,0 +1,51 @@
+.game-over-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #002f498c;
+  display: grid;
+  place-items: center;
+}
+.game-over-box .bg {
+  width: 480px;
+  height: 600px;
+  background: url(../../assets/alternating-arrowhead.svg);
+  display: grid;
+  place-items: center;
+}
+.game-over-box .outcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.game-over-box .bg img {
+  width: 50px;
+}
+.game-over-box .bg > div {
+  background-color: #fff;
+  box-shadow: 1px 1px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 12px;
+}
+.game-over-box > div h2 {
+  padding: 1rem 0;
+  color: var(--primary-blue);
+}
+.game-over-box button {
+  background-color: transparent;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+.game-over-box button:hover {
+  color: var(--primary-blue);
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-blue: #003049;
+  --primary-red: #d62828;
+  --primary-orange: #f77f00;
+  --primary-yellow: #fcbf49;
+  --primary-white: #eae2b7;
+  --console-green: #41ff00;
+}
+
+body {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets//backgrounds/polka-dots.svg);
+}
+
+.game-view {
+  padding: 0 5rem;
+  position: absolute;
+  transition: left 1s linear;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  animation: move-bg 1s forwards linear;
+}
+
+.side-btns {
+  position: absolute;
+  top: 1rem;
+  right: 50px;
+  background-color: var(--primary-yellow);
+  border-radius: 5px;
+  color: #000;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes move-bg {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}

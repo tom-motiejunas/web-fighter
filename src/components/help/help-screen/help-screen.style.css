@@ -1,0 +1,27 @@
+.help-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -80%);
+  max-width: 1000px;
+  height: 500px;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.help-screen img {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+.help-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* primary blue with lower opacity */
+  background-color: #002f49b4;
+}

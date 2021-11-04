@@ -1,0 +1,15 @@
+.back-to-menu {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  background-color: var(--primary-yellow);
+  border-radius: 12px;
+  padding: 0 1rem;
+  border: none;
+  font-size: 3rem;
+  color: #000;
+  cursor: pointer;
+}
+.back-to-menu:hover {
+  color: var(--primary-red);
+}

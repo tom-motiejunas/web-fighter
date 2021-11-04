@@ -1,0 +1,23 @@
+.fighter-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.fighter-list > li {
+  background-color: white;
+  margin: 1rem;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.fighter-list > li > img {
+  width: 100px;
+  background-color: white;
+  border: 7px solid black;
+}
+.fighter-list > li > img:hover {
+  border-color: var(--primary-red);
+}
+.no-hover:hover {
+  border-color: #000 !important;
+}

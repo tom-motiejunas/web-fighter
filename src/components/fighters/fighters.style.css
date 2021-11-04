@@ -1,0 +1,10 @@
+.fighter-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fighter-box > img {
+  width: 325px;
+  padding: 3rem;
+}

@@ -1,0 +1,30 @@
+.fighter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fighter-container > div {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  margin: 1rem;
+  background-color: var(--primary-yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.fighter-container > div > img {
+  width: 300px;
+  height: 300px;
+  padding: 2rem;
+}
+.fighter-container > div > h2 {
+  text-align: center;
+}
+.selected {
+  border: 5px solid var(--primary-red);
+}
+.confirmed {
+  border: 5px solid #000;
+}

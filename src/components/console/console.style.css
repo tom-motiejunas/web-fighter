@@ -1,0 +1,29 @@
+.console {
+  text-align: start;
+  background-color: black;
+  color: var(--console-green);
+  border: 7px solid #fff;
+  padding: 0.1rem;
+  height: 340px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.console .input {
+  display: flex;
+}
+.console .input p {
+  margin-right: 0rem;
+}
+.console .input > input {
+  background: transparent;
+  color: var(--console-green);
+  border: none;
+  font-size: 1rem;
+  font-weight: 100;
+  flex: 1;
+  height: fit-content;
+}
+.console .input > input:focus {
+  outline: none;
+}
