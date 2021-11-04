@@ -34,6 +34,8 @@ function SettingsScreen({ setShowSettings, setPlayerHp, setBotHp }: Props) {
       } else {
         if (!settings) return;
         if (e.target.dataset.setting === "maxHp") {
+          if (!e.target.value) return;
+          console.log(e.target.value);
           setBotHp(+e.target.value);
           setPlayerHp(+e.target.value);
         }
