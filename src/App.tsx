@@ -101,7 +101,7 @@ function App() {
       ) : (
         <div
           className="game-view"
-          style={{ backgroundImage: `url(${randomBg})` }}
+          style={{ backgroundImage: `url(${randomBg})`, zIndex: 0 }}
         >
           <BackToMenu
             setMovesQueueSt={setMovesQueueSt}

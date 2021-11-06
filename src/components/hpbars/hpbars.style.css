@@ -2,8 +2,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   padding: 2rem 0;
+}
+.hp-boxes > div:first-child {
+  margin: 1rem 0;
 }
 .hp-boxes > div > h2 {
   text-align: center;

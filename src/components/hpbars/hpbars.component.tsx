@@ -43,13 +43,13 @@ function HPBars({ playerHp, botHp }: Props) {
   return (
     <nav className="hp-boxes">
       <div>
-        <h2>Name</h2>
+        <h2>Player</h2>
         <li>
           <div className="hp" ref={playerHpRef}></div>
         </li>
       </div>
       <div>
-        <h2>Name</h2>
+        <h2>Bot</h2>
         <li>
           <div className="hp" ref={botHpRef}></div>
         </li>

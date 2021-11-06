@@ -27,7 +27,9 @@ export default function ComboScreen({
       <div>
         {[...showComboScreen].map((char, index) => {
           return (
-            <span className={`letter-${index}`}>{char.toUpperCase()}</span>
+            <span key={index} className={`letter-${index}`}>
+              {char.toUpperCase()}
+            </span>
           );
         })}
       </div>
